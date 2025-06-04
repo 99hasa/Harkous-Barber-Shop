@@ -6,6 +6,9 @@
   --font-family: "Cinzel", serif;
   --line-color: #895737;
 }
+html{
+  scroll-behavior: smooth !important;
+}
 
 * {
   padding: 0;
