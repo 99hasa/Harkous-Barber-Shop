@@ -729,4 +729,22 @@ header .container nav ul a:hover:after {
     font-weight: 700;
   }
 }
+.main .container .content .end {
+  text-align: end;
+}
+.main .container .content .butn{
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: var(--color-link);
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 50px;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+.main .container .content .butn:hover{
+  background-color: rgb(37, 211, 102);
+}
 /* end second page */
