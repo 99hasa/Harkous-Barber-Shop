@@ -60,16 +60,21 @@ body {
   font-family: "Nunito", sans-serif;
 }
 .btn {
-  background-color: var(--main-black);
-  color: var(--color-white);
   position: fixed;
-  bottom: 5px;
-  right: 5px;
-  z-index: 1000;
+  bottom: 15px;
+  right: 15px;
+  z-index: 999;
 }
 .btn a {
   display: block;
+  background-color: var(--main-black);
+  color: var(--color-white);
   padding: 20px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.btn a:hover {
+  background-color: var(--color-link);
   color: var(--color-white);
 }
 header {
@@ -654,6 +659,10 @@ header .container nav ul a:hover:after {
   border-radius: 50px;
   text-transform: capitalize;
 }
+.main {
+  padding: 50px 0;
+  position: relative;
+}
 .main .container {
   display: flex;
   justify-content: space-between;
@@ -749,5 +758,16 @@ header .container nav ul a:hover:after {
 }
 .main .container .content .butn:hover{
   background-color: rgb(37, 211, 102);
+}
+footer {
+  padding: 30px 0;
+  background-color: black;
+}
+footer .p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: var(--font-family);
+  margin-bottom: 0;
 }
 /* end second page */
