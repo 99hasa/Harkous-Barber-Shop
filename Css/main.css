@@ -471,7 +471,13 @@ header .container nav ul a:hover:after {
   margin-bottom: 5px;
   text-align: center;
 }
-
+.kemei .card .content h4 {
+  color: var(--color-link);
+  font-size: 26px;
+  margin-bottom: 15px;
+  font-family: var(--font-family);
+  text-align: center;  
+}
 .kemei .card .content h5 {
   text-transform: capitalize;
   font-size: 23px;
