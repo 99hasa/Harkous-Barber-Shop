@@ -384,17 +384,17 @@ header .container nav ul a:hover:after {
   z-index: 1;
 }
 
-.kemi {
+.kemei {
   padding: 50px 0;
   position: relative;
 }
 
-.kemi .header {
+.kemei .header {
   text-align: center;
   margin-bottom: 50px;
 }
 
-.kemi .header h2 {
+.kemei .header h2 {
   color: var(--color-link);
   font-family: var(--font-family);
   font-size: 50px;
@@ -404,7 +404,7 @@ header .container nav ul a:hover:after {
   position: relative;
 }
 
-.kemi .header h2::after {
+.kemei .header h2::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -413,37 +413,37 @@ header .container nav ul a:hover:after {
   height: 2px;
   background-color: var(--color-link);
 }
-.kemi .header p {
+.kemei .header p {
   color: rgb(0, 0, 0, 0.5);
   font-size: 18px;
   line-height: 1.8;
   margin-top: 20px;
 }
 
-.kemi .bc {
+.kemei .bc {
   background: linear-gradient(123deg, black 30%, #090577);
 }
-.kemi .container {
+.kemei .container {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.kemi .container .row {
+.kemei .container .row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
-.kemi .card {
+.kemei .card {
   background-color: white;
   /* width: 300px; */
   border-radius: 20px;
   overflow: hidden;
 }
 
-.kemi .card .img {
+.kemei .card .img {
   width: 100%;
   position: relative;
 }
-.kemi .card .img::after {
+.kemei .card .img::after {
   content: "";
   position: absolute;
   top: 0;
@@ -453,17 +453,17 @@ header .container nav ul a:hover:after {
   background-color: rgb(0, 0, 0, 0.1);
 }
 
-.kemi .card img {
+.kemei .card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-.kemi .card .content {
+.kemei .card .content {
   padding: 20px;
 }
 
-.kemi .card .content h3 {
+.kemei .card .content h3 {
   font-family: var(--font-family);
   font-size: 50px;
   font-weight: 600;
@@ -472,7 +472,7 @@ header .container nav ul a:hover:after {
   text-align: center;
 }
 
-.kemi .card .content h5 {
+.kemei .card .content h5 {
   text-transform: capitalize;
   font-size: 23px;
   margin-bottom: 15px;
@@ -481,13 +481,13 @@ header .container nav ul a:hover:after {
   text-align: center;
 }
 
-.kemi .card .content p {
+.kemei .card .content p {
   color: rgb(0, 0, 0, 0.6);
   line-height: 1.8;
   text-align: center;
   margin-bottom: 15px;
 }
-.kemi .card .content .next-p {
+.kemei .card .content .next-p {
   font-size: 20px;
   font-family: var(--font-family);
   color: var(--color-link);
@@ -496,39 +496,39 @@ header .container nav ul a:hover:after {
   margin-bottom: 12px;
   transition: 0.3s;
 }
-.kemi .card .content .next-p:hover {
+.kemei .card .content .next-p:hover {
   color: rgb(37, 211, 102);
   transform: scale(1.1);
   text-decoration: none;
 }
-.kemi .card .content .links {
+.kemei .card .content .links {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 18px;
 }
-.kemi .card .content .links .bt {
+.kemei .card .content .links .bt {
   padding: 10px;
   color: white;
   background-color: rgb(37, 211, 102);
   border-radius: 8px;
 }
 
-.kemi .card .content .links .link a:not(:last-child) {
+.kemei .card .content .links .link a:not(:last-child) {
   margin-right: 8px;
 }
 
-.kemi .card .content .links .link a {
+.kemei .card .content .links .link a {
   font-size: 20px;
   transition: 0.3s;
   color: black;
 }
-.kemi .card .content .links .link a:first-child:hover {
+.kemei .card .content .links .link a:first-child:hover {
   color: blue;
   transform: scale(1.2);
 }
 
-.kemi .card .content .links .link a:last-child:hover {
+.kemei .card .content .links .link a:last-child:hover {
   background: radial-gradient(
     circle,
     #feda75,
@@ -761,13 +761,26 @@ header .container nav ul a:hover:after {
 }
 footer {
   padding: 30px 0;
-  background-color: black;
+  background: linear-gradient(to right, black 30%, #1008fa);
+  text-align: center;
 }
 footer .p {
   text-align: center;
   color: white;
   font-size: 20px;
   font-family: var(--font-family);
-  margin-bottom: 0;
+  margin-bottom: 20px;
+
+}
+footer span {
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+footer span a {
+  color: var(--color-link);
+  font-weight: 600;
+  font-family: var(--font-family);
 }
 /* end second page */
