@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="Css/all.main.css" />
     <link rel="stylesheet" href="Css/normaliza.css" />
     <link rel="stylesheet" href="Css/main.css" />
+    <link rel="stylesheet" href="Css/mini.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,57 +36,59 @@
       <a href="#home"><i class="fa-solid fa-arrow-up-long"></i></a>
     </div>
     <header id="home">
-      <div class="container">
+      <div class="container d-flex justify-btw align-center">
         <div class="logo">
           <img src="image/pngegg (4).png" loading="lazy" alt="simple-pic" />
         </div>
-        <nav>
-          <div class="link-bar">
+        <nav class="p-rel">
+          <div class="link-bar d-flex justify-btw">
             <span class="one"></span>
             <span class="two"></span>
             <span class="three"></span>
           </div>
-          <ul>
-            <li><a href="#home">home</a></li>
-            <li><a href="#about-us">About us</a></li>
-            <li><a href="#kemei">kemei</a></li>
-            <li><a href="#vgr">vgr</a></li>
+          <ul class="d-flex align-center">
+            <li><a class="p-rel d-block f-family"  href="#home">home</a></li>
+            <li><a class="p-rel d-block f-family" href="#about-us">About us</a></li>
+            <li><a class="p-rel d-block f-family" href="#kemei">kemei</a></li>
+            <li><a class="p-rel d-block f-family" href="#vgr">vgr</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <div class="landing">
-      <h1>harkous barber shop</h1>
-      <p>welcome to our page</p>
+    <div class="landing center layout">
+      <div class="p-rel">
+        <h1 class="c-link t-center text-cap">harkous barber shop</h1>
+        <p class="t-center c-link">welcome to our page</p>
+      </div>
     </div>
     <main>
-      <section class="about" id="about-us">
+      <section class="about p-top p-bottom" id="about-us">
         <div class="container">
           <div class="header">
-            <h2>About Us</h2>
+            <h2 class="header-1 t-center c-link p-rel">About Us</h2>
           </div>
-          <div class="row">
+          <div class="row d-flex align-center justify-btw">
             <div class="content-barber">
-              <h1>harkous barber shop</h1>
-              <p>
+              <h1 class="c-link t-center text-cap">harkous barber shop</h1>
+              <p class="t-center">
                 Welcome! We offer superior shaving implements and premium salon
                 supplies for both men and women at competitive prices.
               </p>
-              <div class="phone">
-                <h3>Click on the number:</h3>
-                <div class="ph-1">
-                  <a href="https://wa.me/96170412067?text=https://99hasa.github.io/Harkous-Barber-Shop" target="_blank"
+              <div class="phone t-center d-flex">
+                <h3 class="c-link">Click on the number:</h3>
+                <div class="ph-1 c-link">
+                  <a class="c-link" href="https://wa.me/96170412067?text=https://99hasa.github.io/Harkous-Barber-Shop" target="_blank"
                     ><i class="fa-brands fa-whatsapp"></i> +961 70412067</a
                   >
                 </div>
-                <div class="ph-1">
-                  <a href="https://wa.me/96176869428?text=https://99hasa.github.io/Harkous-Barber-Shop" target="_blank"
+                <div class="ph-1 c-link">
+                  <a class="c-link" href="https://wa.me/96176869428?text=https://99hasa.github.io/Harkous-Barber-Shop" target="_blank"
                     ><i class="fa-brands fa-whatsapp"></i> +961 76869428</a
                   >
                 </div>
               </div>
             </div>
-            <div class="img">
+            <div class="img layout d-block">
               <img
                 src="image/andrea-donato-MNu0n-3BIKs-unsplash.jpg"
                 loading="lazy"
@@ -95,31 +98,31 @@
           </div>
         </div>
       </section>
-      <div class="pc"></div>
+      <div class="pc layout"></div>
       <section class="kemei" id="kemei">
         <div class="header">
-          <h2>kemei</h2>
+          <h2 class="header-1 p-rel c-link">kemei</h2>
           <p>Professional high quality advanced shaving system</p>
         </div>
         <div class="bc">
-          <div class="container">
+          <div class="container p-bottom p-top">
             <div class="row">
               <div class="card">
-                <div class="img">
-                  <img
+                <div class="img layout">
+                  <img class="d-block"
                     src="image/kemei-image/km-5017.webp"
                     loading="lazy"
                     alt="km-5017"
                   />
                 </div>
                 <div class="content">
-                  <h3>kemei</h3>
-                  <h5>Model: KM-5017</h5>
-                  <p>
+                  <h3 class="c-link t-center">kemei</h3>
+                  <h5 class="text-cap t-center c-link">Model: KM-5017</h5>
+                  <p class="t-center">
                     kemei is a professional high quality advanced shaving system.
                   </p>
-                  <a class="next-p" href="km-5017.html">Description</a>
-                  <div class="links">
+                  <a class="next-p c-link" href="km-5017.html">Description</a>
+                  <div class="links d-flex justify-btw align-center">
                     <a
                       href="https://wa.me/96176869428?text=https://99hasa.github.io/Harkous-Barber-Shop/km-5017.html"
                       target="_blank"
@@ -141,22 +144,23 @@
                   </div>
                 </div>
               </div>
+
               <div class="card">
-                <div class="img">
-                  <img
+                <div class="img layout">
+                  <img class="d-block"
                     src="image/kemei-image/km-5021.avif"
                     loading="lazy"
                     alt="km-5021"
                   />
                 </div>
                 <div class="content">
-                  <h3>kemei</h3>
-                  <h5>Model: KM-5021</h5>
-                  <p>
+                  <h3 class="c-link t-center">kemei</h3>
+                  <h5 class="text-cap t-center c-link">Model: KM-5021</h5>
+                  <p class="t-center">
                     Kemei is a professional high quality advanced shaving system.
                   </p>
-                  <a class="next-p" href="km-5021.html">Description</a>
-                  <div class="links">
+                  <a class="next-p  c-link" href="km-5021.html">Description</a>
+                  <div class="links  d-flex justify-btw align-center">
                     <a
                       href="https://wa.me/96176869428?text=https://99hasa.github.io/Harkous-Barber-Shop/km-5021.html"
                       target="_blank"
@@ -178,22 +182,24 @@
                   </div>
                 </div>
               </div>
+
               <div class="card">
-                <div class="img">
+                <div class="img layout">
                   <img
+                    class="d-block"
                     src="image/kemei-image/km-1949.avif"
                     alt="km-1949"
                     loading="lazy"
                   />
                 </div>
                 <div class="content">
-                  <h3>kemei</h3>
-                  <h5>Model: KM-1949</h5>
-                  <p>
+                  <h3 class="c-link t-center" >kemei</h3>
+                  <h5 class="text-cap t-center c-link">Model: KM-1949</h5>
+                  <p t-center>
                     kemei is a professional high quality advanced shaving system.
                   </p>
-                   <a class="next-p" href="km-1949.html">Description</a>
-                  <div class="links">
+                   <a class="next-p  c-link" href="km-1949.html">Description</a>
+                  <div class="links  d-flex justify-btw align-center">
                     <a
                       href="https://wa.me/96176869428?text=https://99hasa.github.io/Harkous-Barber-Shop/km-1949.html"
                       target="_blank"
@@ -216,21 +222,22 @@
                 </div>
               </div>
               <div class="card">
-                <div class="img">
+                <div class="img layout">
                   <img
+                    class="d-block"
                     src="image/kemei-image/km-2299.jpg"
                     alt=""
                     loading="lazy"
                   />
                 </div>
                 <div class="content">
-                  <h3>kemei</h3>
-                  <h5>Model: KM-2299</h5>
-                  <p>
+                  <h3 class="c-link t-center" >kemei</h3>
+                  <h5 class="text-cap t-center c-link">Model: KM-2299</h5>
+                  <p class="t-center">
                     kemei is a professional high quality advanced shaving system.
                   </p>
-                   <a class="next-p" href="km-2299.html">Description</a>
-                  <div class="links">
+                   <a class="next-p  c-link" href="km-2299.html">Description</a>
+                  <div class="links  d-flex justify-btw align-center">
                     <a
                       href="https://wa.me/96176869428?text=https://99hasa.github.io/Harkous-Barber-Shop/km-2299.html"
                       target="_blank"
@@ -253,21 +260,22 @@
                 </div>
               </div>
               <div class="card">
-                <div class="img">
+                <div class="img layout">
                   <img
+                    class="d-block"
                     src="image/kemei-image/km-9688.webp"
                     alt=""
                     loading="lazy"
                   />
                 </div>
                 <div class="content">
-                  <h3>kemei</h3>
-                  <h5>Model: KM-9688</h5>
-                  <p>
+                  <h3 class="c-link t-center">kemei</h3>
+                  <h5 class="text-cap t-center c-link">Model: KM-9688</h5>
+                  <p class="t-center">
                     kemei is a professional high quality advanced shaving system.
                   </p>
-                  <a class="next-p" href="km-9688.html">Description</a>
-                  <div class="links">
+                  <a class="next-p  c-link" href="km-9688.html">Description</a>
+                  <div class="links  d-flex justify-btw align-center">
                     <a
                       href="https://wa.me/96176869428?text=https://99hasa.github.io/Harkous-Barber-Shop/km-9688.html"
                       target="_blank"
@@ -290,22 +298,23 @@
                 </div>
               </div>
               <div class="card">
-                <div class="img">
+                <div class="img layout">
                   <img
+                    class="d-block"
                     src="image/kemei-image/km-114.webp"
                     loading="lazy"
                     alt=""
                   />
                 </div>
                 <div class="content">
-                  <h3>kemei</h3>
-                  <h4>Body Trimmer</h4>
-                  <h5>Model: KM-114</h5>
-                  <p>
+                  <h3 class="c-link t-center">kemei</h3>
+                  <h4 class="t-center">Body Trimmer</h4>
+                  <h5 class="text-cap t-center c-link">Model: KM-114</h5>
+                  <p class="t-center">
                     kemei is a professional high quality advanced shaving system.
                   </p>
-                  <a class="next-p" href="km-114.html">Description</a>
-                  <div class="links">
+                  <a class="next-p  c-link" href="km-114.html">Description</a>
+                  <div class="links  d-flex justify-btw align-center">
                     <a
                       href="https://wa.me/96176869428?text=https://99hasa.github.io/Harkous-Barber-Shop/km-114.html"
                       target="_blank"
@@ -327,23 +336,24 @@
                   </div>
                 </div>
               </div>
-                 <div class="card">
-                <div class="img">
+                <div class="card">
+                <div class="img layout">
                   <img
+                    class="d-block"
                     src="image/kemei-image/km-1910.webp"
                     loading="lazy"
                     alt="km-1919"
                   />
                 </div>
                 <div class="content">
-                  <h3>kemei</h3>
-                   <h4>Body Trimmer</h4>
-                  <h5>Model: KM-1910</h5>
-                  <p>
+                  <h3 class="c-link t-center">kemei</h3>
+                   <h4 class="t-center">Body Trimmer</h4>
+                  <h5 class="text-cap t-center c-link">Model: KM-1910</h5>
+                  <p class="t-center">
                     kemei is a professional high quality advanced shaving system.
                   </p>
-                  <a class="next-p" href="km-1910.html">Description</a>
-                  <div class="links">
+                  <a class="next-p  c-link" href="km-1910.html">Description</a>
+                  <div class="links  d-flex justify-btw align-center">
                     <a
                       href="https://wa.me/96176869428?text=https://99hasa.github.io/Harkous-Barber-Shop/km-1910.html"
                       target="_blank"
@@ -366,22 +376,23 @@
                 </div>
               </div>
                   <div class="card">
-                <div class="img">
+                <div class="img layout">
                   <img
+                    class="d-block"
                     src="image/kemei-image/km-1838.webp"
                     loading="lazy"
                     alt="km-1838"
                   />
                 </div>
                 <div class="content">
-                  <h3>kemei</h3>
-                   <h4>Body Trimmer</h4>
-                  <h5>Model: KM-1838</h5>
-                  <p>
+                  <h3 class="c-link t-center">kemei</h3>
+                   <h4 class="t-center">Body Trimmer</h4>
+                  <h5 class="text-cap t-center c-link">Model: KM-1838</h5>
+                  <p class="t-center">
                     kemei is a professional high quality advanced shaving system.
                   </p>
-                  <a class="next-p" href="km-1838.html">Description</a>
-                  <div class="links">
+                  <a class="next-p  c-link" href="km-1838.html">Description</a>
+                  <div class="links  d-flex justify-btw align-center">
                     <a
                       href="https://wa.me/96176869428?text=https://99hasa.github.io/Harkous-Barber-Shop/km-1838.html"
                       target="_blank"
@@ -404,21 +415,22 @@
                 </div>
               </div>
               <div class="card">
-                <div class="img">
+                <div class="img layout">
                   <img
+                    class="d-block"
                     src="image/kemei-image/km-ng-203.jpg"
                     loading="lazy"
                     alt="km-NG-203"
                   />
                 </div>
                 <div class="content">
-                  <h3>kemei</h3>
-                  <h5>Model: KM-NG-203</h5>
-                  <p>
+                  <h3 class="c-link t-center">kemei</h3>
+                  <h5 class="text-cap t-center c-link">Model: KM-NG-203</h5>
+                  <p class="t-center">
                     kemei is a professional high quality advanced shaving system.
                   </p>
-                  <a class="next-p" href="km-ng-203.html">Description</a>
-                  <div class="links">
+                  <a class="next-p  c-link" href="km-ng-203.html">Description</a>
+                  <div class="links  d-flex justify-btw align-center">
                     <a
                       href="https://wa.me/96176869428?text=https://99hasa.github.io/Harkous-Barber-Shop/km-ng-203.html"
                       target="_blank"
@@ -444,31 +456,31 @@
           </div>
         </div>
       </section>
-      <section class="photo">
+      <section class="photo p-bottom p-top p-rel">
         <div class="container">
           <div class="images">
-            <div class="im-1">
+            <div class="im-1 layout">
               <img
                 src="image/nate-johnston-tgPrIYnW3g4-unsplash.jpg"
                 loading="lazy"
                 alt="photo"
               />
             </div>
-            <div class="im-1">
+            <div class="im-1 layout">
               <img
                 src="image/andrea-donato-v1F2Ayb57-k-unsplash.jpg"
                 loading="lazy"
                 alt="photo"
               />
             </div>
-            <div class="im-1">
+            <div class="im-1 layout">
               <img
                 src="image/apothecary-87-Wg3J83R1YSQ-unsplash.jpg"
                 loading="lazy"
                 alt="photo"
               />
             </div>
-            <div class="im-1">
+            <div class="im-1 layout">
               <img
                 src="image/salah-regouane-cByMWSOSYJg-unsplash.jpg"
                 loading="lazy"

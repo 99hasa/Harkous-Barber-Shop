@@ -1,0 +1,82 @@
+:root {
+  --main-black: rgb(0, 0, 0);
+  --layout-color: rgb(0, 0, 0, 0.2);
+  --color-white: #fff2e1;
+  --color-link: #c08552;
+  --font-family: "Cinzel", serif;
+}
+.c-link {
+  color: var(--color-link);
+  font-family: var(--font-family);
+}
+.t-center {
+  text-align: center;
+}
+.p-rel {
+  position: relative;
+  z-index: 2;
+}
+.layout {
+  position: relative;
+}
+.layout::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--layout-color);
+  z-index: 1;
+}
+.d-flex {
+  display: flex;
+}
+.justify-btw {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.bg-color {
+  background-color: var(--color-link);
+}
+.d-block {
+  display: block;
+}
+
+.f-family {
+  font-family: var(--font-family);
+}
+
+.center {
+  display: grid;
+  place-items: center;
+}
+
+.text-cap {
+  text-transform: capitalize;
+}
+.p-top {
+  padding-top: 100px;
+}
+.p-bottom {
+  padding-bottom: 100px;
+}
+
+.header .header-1 {
+  font-size: 40px;
+  width: fit-content;
+  padding: 0 0 11px;
+  margin: 0 auto;
+}
+
+.header .header-1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: calc(100% - 30px);
+  height: 2px;
+  background-color: var(--color-link);
+}
