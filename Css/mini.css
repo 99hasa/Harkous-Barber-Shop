@@ -81,3 +81,7 @@
   height: 2px;
   background-color: var(--color-link);
 }
+
+.bc-vgr{
+  background-color: var(--main-black);
+}
