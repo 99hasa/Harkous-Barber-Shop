@@ -259,9 +259,15 @@ header .container nav .link-bar:hover span:nth-child(2) {
 }
 
 .pc {
+  -webkit-background-image:url("../image/its-dilman-U0ahbhEeUdE-unsplash.jpg");
+  -moz-background-image: url("../image/its-dilman-U0ahbhEeUdE-unsplash.jpg");
   background-image: url("../image/its-dilman-U0ahbhEeUdE-unsplash.jpg");
   height: 500px;
+  -webkit-background-size:cover;
+  -moz-background-size: cover;
   background-size: cover;
+  -webkit-background-position: center;
+  -moz-background-position: center;
   background-position: center;
   -webkit-background-attachment: fixed;
   -moz-background-attachment: fixed;
