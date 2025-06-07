@@ -7,6 +7,7 @@
   --color-para:#000000a6;
   --color-wts:#25d366;
   --blue-back:#090577;
+  --background-color: white;
 }
 html{
   scroll-behavior: smooth !important;
@@ -258,7 +259,7 @@ header .container nav .link-bar:hover span:nth-child(2) {
   object-fit: cover;
 }
 
-.pc {
+/* .pc {
   -webkit-background-image:url("../image/its-dilman-U0ahbhEeUdE-unsplash.jpg");
   -moz-background-image: url("../image/its-dilman-U0ahbhEeUdE-unsplash.jpg");
   background-image: url("../image/its-dilman-U0ahbhEeUdE-unsplash.jpg");
@@ -272,8 +273,29 @@ header .container nav .link-bar:hover span:nth-child(2) {
   -webkit-background-attachment: fixed;
   -moz-background-attachment: fixed;
   background-attachment: fixed;
+} */
+.pc {
+  position: relative;
+  width: 100%;
+  height: 500px;
 }
-
+.pc .image {
+    -webkit-background-image:url("../image/its-dilman-U0ahbhEeUdE-unsplash.jpg");
+  -moz-background-image: url("../image/its-dilman-U0ahbhEeUdE-unsplash.jpg");
+  background-image: url("../image/its-dilman-U0ahbhEeUdE-unsplash.jpg");
+    -webkit-background-size:cover;
+  -moz-background-size: cover;
+  background-size: cover;
+   -webkit-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+}
 .kemei {
   padding: 50px 0;
   position: relative;
