@@ -133,17 +133,24 @@ header .container nav .link-bar span:nth-child(2) {
   align-self: flex-end;
   transition: 0.3s;
 }
-header .container nav .link-bar:hover span:nth-child(2) {
+header .container nav .menu-btn:checked + label .link-bar span:nth-child(2) {
   width: 100%;
 }
+header .container nav .menu-btn {
+  display: none;
+}
 @media (max-width: 991.9px) {
-  header .container nav ul {
+  header .container nav .menu-btn{
+    display: block;
+    appearance: none;
+  }
+  header .container nav label ul {
     display: none;
     background-color: var(--color-link);
     width: 200px;
     padding: 10px;
   }
-  header .container nav:hover ul {
+  header .container nav .menu-btn:checked + label  .link-bar +  ul {
     display: block;
     position: absolute;
     right: 0;
