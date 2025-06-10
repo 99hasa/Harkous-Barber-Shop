@@ -122,6 +122,7 @@ header .container nav .link-bar {
   width: 30px;
   height: 30px;
   flex-direction: column;
+  cursor: pointer;
 }
 header .container nav .link-bar span {
   width: 100%;
@@ -145,16 +146,30 @@ header .container nav .menu-btn {
     appearance: none;
   }
   header .container nav label ul {
-    display: none;
+    /* display: none; */
     background-color: var(--color-link);
     width: 200px;
     padding: 10px;
-  }
-  header .container nav .menu-btn:checked + label  .link-bar +  ul {
-    display: block;
     position: absolute;
     right: 0;
+    top: calc(100% - 30px);
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: 0.3s;
+  }
+  header .container nav .menu-btn:checked + label  .link-bar +  ul {
+    position: absolute;
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+    /* display: block; */
     top: calc(100% + 30px);
+  }
+  header .container nav ul li {
+    width: 100%;
   }
   header .container nav ul a {
     padding: 10px 15px;
@@ -166,11 +181,12 @@ header .container nav .menu-btn {
     color: var(--main-black);
   }
 }
-@media (min-width: 992px) {
+
+ @media (min-width: 992px) {
   header .container nav .link-bar {
     display: none;
   }
-}
+} 
 .landing {
   height: 100vh;
   background-image: url("../image/landing/allef-vinicius-IvQeAVeJULw-unsplash.jpg");
@@ -563,7 +579,7 @@ header .container nav .menu-btn {
   background-color: rgb(37, 211, 102);
 }
 footer {
-  padding: 30px 0;
+  padding: 50px 0;
   background: linear-gradient(to right, black 30%, #1008fa);
   text-align: center;
 }
@@ -572,7 +588,9 @@ footer .p {
   color: white;
   font-size: 20px;
   font-family: var(--font-family);
+  font-size: 15px;
   margin-bottom: 20px;
+  text-transform: uppercase;
 
 }
 footer span {
@@ -580,6 +598,9 @@ footer span {
   font-size: 18px;
   display: inline-block;
   margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: var(--font-family);
+  font-size: 13px;
 }
 footer span a {
   color: var(--color-link);
@@ -587,3 +608,16 @@ footer span a {
   font-family: var(--font-family);
 }
 /* end second page */
+
+.arb-p{
+  width: 300px;
+  margin: 20px auto 0;
+  font-size: 24px;
+  direction: rtl;
+}
+.boc-sha{
+  box-shadow: 0 0 10px #9c9797;
+}
+.bac-foo{
+  background: #1c0d01;
+}
