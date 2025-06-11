@@ -621,3 +621,8 @@ footer span a {
 .bac-foo{
   background: #1c0d01;
 }
+
+.bg-wom{
+   /* background-color: rgb(255 218 251); */
+   background: linear-gradient(to right, white,rgb(255 218 251));
+}
